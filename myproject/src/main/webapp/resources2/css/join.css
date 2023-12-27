@@ -1,0 +1,75 @@
+@import url('https://font.googleapis.com/css?family=noto+Sans+KR&display=swap');
+
+*{margin: 0; padding: 0;}
+
+body{
+    height: 100vh;
+    background-image: url(../css/img/background_img04.jpg);
+    background-size: cover;
+    display: flex;
+    font-family: 'noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    color: #000000;
+}
+.wrap{
+    width: 500px;
+    height: 715px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.join_box{
+    margin-left: 110px;
+}
+p{
+    margin-top: 20px;
+}
+#btn{
+    width: 110px;
+    height: 40px;
+    border-radius: 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: #d6bb90;
+    color: #000;
+    border: none;
+}
+#join_btn{
+    width: 100px;
+    height: 35px;
+    border-radius: 25px;
+    background-color: #d6bb90;
+    color: #000;
+    border: none;
+}
+#in-t{
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+#member_id, #member_pw, #re_pw, #name, #member_year, #phone, #email{
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+#birthManth, #birthDay{
+    height: 32px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+#gender_t{
+    margin-bottom: 10px;
+}
+span{
+    color: #000;
+}
