@@ -1,0 +1,69 @@
+@import url('https://font.googleapis.com/css?family=noto+Sans+KR&display=swap');
+
+*{margin: 0 auto; padding: 0;}
+.wrap{  
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'noto Sans KR', sans-serif;
+    background-image: url(../css/img/background_img04.jpg);
+    background-size: cover;
+}
+form{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#text_box{
+    margin: 50px 10px;
+}
+#text{
+    color: red;
+}
+h1{font-size: 80px; margin-top: 120px;}
+p{font-size: 28px; margin-top: 30px;}
+#pass_t{
+    position: absolute;
+    margin-left: 10px;
+    font-size: 22px;
+    color: #000;
+    font-weight: bolder;
+}
+#pass{
+    width: 400px;
+    margin-top: 30px;
+}
+#pass input{
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px 10px 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+}
+#pass_b{
+    width: 420px;
+    padding: 20px 10px;
+    margin: 10px 0px 0px 23px;
+    font-size: 18px;
+    background: rgba(42, 153, 243, 0.5);
+    color: #000;
+    border: none;
+    border-radius: 25px;
+}
+#BOX{
+    margin: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 25px;
+}
